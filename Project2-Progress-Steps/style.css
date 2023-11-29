@@ -45,6 +45,7 @@ body {
     border: 1px solid grey;
     border-radius: 50%;
     text-align: center;
+    transition: background-color 0.5s ease-in ;
 }
 
 .step.active {
@@ -63,7 +64,8 @@ body {
 .progressbar {
     width: 14.28%;
     height: 1.5%;
-    border: 1px solid grey;   
+    border: 1px solid grey;  
+    transition: background-color 0.5s ease-in ; 
 }
 
 .progressbar.active {

@@ -2,7 +2,7 @@ const progressbars = document.querySelectorAll('.progressbar')
 const steps = document.querySelectorAll('.step')
 const buttons = document.querySelectorAll('.button')
 const buttonnext = document.querySelector('.button.next')
-const buttonprev = document.querySelector('.button.reset')
+const buttonprev = document.querySelector('.button.prev')
 
 
 let currentActive = 0
