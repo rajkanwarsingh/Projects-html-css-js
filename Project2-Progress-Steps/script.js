@@ -12,7 +12,6 @@ buttons.forEach((button) => {
       
         if(button.classList.contains('next')) {
             currentActive++
-            console.log('first-check '+ currentActive)
             if (currentActive > steps.length) {
                 currentActive--
             }
