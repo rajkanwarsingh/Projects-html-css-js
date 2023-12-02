@@ -8,8 +8,7 @@ const buttonprev = document.querySelector('.button.prev')
 let currentActive = 0
 
 buttons.forEach((button) => {
-    button.addEventListener('click' , () => {
-      
+    button.addEventListener('click' , () => {      
         if(button.classList.contains('next')) {
             currentActive++
             if (currentActive > steps.length) {
